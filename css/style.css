@@ -14,7 +14,7 @@
  @import url(swiper.min.css);
  @import url(slick.css);
  @import url(jquery-ui.css);
- @import url(nice-select.css);
+ @import url(mystyle.css);
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
  * {
      box-sizing: border-box !important;
@@ -1505,20 +1505,4 @@ background-position: center;
      padding: 40px 0;
      font-weight: 500;
      text-align: center;
-}
-/* mycss */
-.cardbox{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-wrap: wrap;
-}
-.card img{
-     width: 150px;
-     height: 200px;
-}
-.card{
-     padding: 5px;
-     margin: 20px;
-     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
