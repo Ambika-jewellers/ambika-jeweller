@@ -26,7 +26,14 @@ const productinfo = [
 // functions
 const handleLoad = (e) => {
     if (Number(e.target.value) == 0) {
-        location.reload()
+        let data = ''
+        productinfo.map((element)=>{
+            heading.innerHTML = "All"
+            for (i = 1; i <= element.imagesLength; i++) {
+                data += `<div class="card"> <img src="images/${element.folderName}/p${i}.jpg"></div>`
+            }
+        })
+        cardbox.innerHTML = data
     }
     else {
         const listno = Number(e.target.value)
